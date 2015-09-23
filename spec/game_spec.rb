@@ -44,18 +44,15 @@ describe('game') do
     expect(game(player_1, player_2)).to(eq("tie"))
   end
 
-  it("compairs 'scissor' to 'scissor' and returns 'tie'")do
-  player_1 = "scissor"
-  player_2 = "scissor"
-  expect(game(player_1, player_2)).to(eq("tie"))
-end
+  it("compairs 'scissor' to 'scissor' and returns 'tie'") do
+    player_1 = "scissor"
+    player_2 = "scissor"
+    expect(game(player_1, player_2)).to(eq("tie"))
+  end
 
   it("compairs 'rock' to 'rock' returing as a tie") do
     player_1 = "rock"
     player_2 = "rock"
     expect(game(player_1, player_2)).to(eq("tie"))
   end
-
-
-
 end

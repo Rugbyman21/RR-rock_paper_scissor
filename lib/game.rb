@@ -23,4 +23,6 @@ def game(player_1, player_2)
       outcome= "tie"
   end
 
+  outcome
+
 end
